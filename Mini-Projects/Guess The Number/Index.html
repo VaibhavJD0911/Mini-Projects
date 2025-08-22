@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guess The Number</title>
+  <link rel="stylesheet" href="Styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="game-box">
+      <h2 class="neon">Guess a number between 1 and 100</h2>
+      <p class="neon-sub">You get a total of 10 tries</p>
+      <form class="user" onsubmit="return false;">
+        <label for="userguess" id="guess" class="neon-label">Enter Your Guess</label>
+        <input type="number" id="userguess" min="1" max="100" />
+        <button type="submit" id="submitBtn">Submit</button>
+      </form>
+      <div id="message" class="message-area"></div>
+    </div>
+  </div>
+  <script src="Script.js"></script>
+</body>
+</html>
