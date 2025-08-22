@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    align-items: center;
+}
+
+.Start{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid;
+    font-family: cursive;
+}
+.Stop{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid;
+    font-family: cursive;
+}
+.Start:hover{
+    background-color: green;
+    transform: scale(1.05);
+}
+.Stop:hover{
+    background-color: darkred;
+    transform: scale(1.05);
+}
+
