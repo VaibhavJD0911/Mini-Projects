@@ -18,4 +18,5 @@ Each project focuses on improving core web development skills such as DOM manipu
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
+   git clone https://github.com/VaibhavJD0911/Mini-Projects.git
 
